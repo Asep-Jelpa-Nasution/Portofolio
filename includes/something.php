@@ -1,1 +1,1 @@
-<h1>Halaman Lainnya</h1>
+<h1>Jika ada yang ingin di tanyakan, silahkan hubungi kami melalui contact us :></h1>
