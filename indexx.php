@@ -15,7 +15,7 @@
 
 <body>
     <header>
-        <h1 class="text-center p-3">Sneaker Store</h1>
+        <h1 class="text-center p-3">Jacket Store</h1>
     </header>
 
     <!-- menu -->

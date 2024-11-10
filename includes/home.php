@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sneaker Catalog</title>
+    <title>Jacket Catalog</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         /* CSS untuk animasi horizontal */
@@ -76,18 +76,18 @@
 
     <!-- Catalog Section -->
     <section id="catalog" class="mt-5">
-        <h2>Sneaker Catalog</h2>
+        <h2>Jacket Catalog</h2>
         <div class="container">
             <div class="row justify-content-center">
                 <div class="card-container">
                     <?php
                     $catalog = [
-                        ["Nike Air Force 1", "assets/img/ft1_nike.jpg", "$90"],
-                        ["Adidas Ultraboost 21", "assets/img/ft2_adidas.jpg", "$180"],
-                        ["Converse Chuck Taylor", "assets/img/ft3_converse.jpg", "$60"],
-                        ["New Balance 574", "assets/img/ft4_nb.jpg", "$80"],
-                        ["Vans Old Skool", "assets/img/ft5_vans.jpg", "$65"],
-                        ["Puma RS-X", "assets/img/ft6_puma.jpg", "$110"],
+                        ["Alpha Industries MA-1", "assets/img/ft1_bomberjackets.jpeg", "$150"],
+                        ["Schott NYC Perfecto", "assets/img/ft2_perfectoleather.jpeg", "$500"],
+                        ["Levi's Trucker", "assets/img/ft3_originaltrucker.jpeg", "$80"],
+                        ["Canada Goose Expedition", "assets/img/ft4_expeditionparka.jpeg", "$900"],
+                        ["The North Face Resolve", "assets/img/ft5_resolvewindbreaker.jpeg", "$70"],
+                        ["H&M Slim-Fit Blazer", "assets/img/ft6_slim-fitblazer.jpeg", "$40"],
                     ];
 
                     // Duplikasi kartu untuk menciptakan efek tak terbatas tanpa jeda

@@ -3,67 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome Page</title>
+    <title>Welcome to Jacket Store</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        /* Sentuhan Desain Sepatu */
+        /* Styling Umum */
         body {
-            background-color: #f8f9fa;
+            background-color: #212529; /* Warna latar belakang gelap */
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
+            color: #f8f9fa;
         }
 
+        /* Bagian Welcome Section */
         .welcome-section {
-            background-image: url('https://i.pinimg.com/564x/a8/1a/7f/a81a7f009a39ee2cce18dc87a5ea42de.jpg'); /* Ganti dengan gambar sepatu yang relevan */
-            background-size: cover;  /* Memastikan gambar latar belakang memenuhi layar */
-            background-position: center; /* Memastikan gambar berada di tengah */
-            background-attachment: fixed; /* Gambar tetap saat scroll */
-            padding: 100px 20px; /* Memberi padding lebih agar teks tidak terlalu dekat dengan tepi */
-            color: #fff;
+            background-image: url('https://i.pinimg.com/originals/ba/d2/25/bad22598bc9f801a9415c47ab2a71de4.jpg'); /* Ganti dengan gambar jaket yang relevan */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            padding: 100px 20px;
+            color: white;
             text-align: center;
-            min-height: 90vh; /* Membatasi gambar latar belakang agar tidak memenuhi seluruh layar */
+            min-height: 90vh;
             display: flex;
             flex-direction: column;
-            justify-content: flex-start; /* Agar teks tetap di atas */
-            align-items: center; /* Agar teks berada di tengah secara horizontal */
-            position: relative; /* Agar teks bisa diposisikan secara absolut di dalam section */
+            justify-content: center;
+            position: relative;
         }
 
-        /* Teks Sneaker Store di atas */
-        .sneaker-text {
+        /* Teks untuk "Jacket Store" di atas */
+        .jacket-text {
             position: absolute;
-            top: 20px; /* Menempatkan teks di atas */
+            top: 20px;
             left: 50%;
             transform: translateX(-50%);
-            font-size: 3rem;
-            font-weight: bold;
-            color: white;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Menambahkan bayangan pada teks agar lebih jelas */
+            font-size: 3.5rem;
+            font-weight: 700;
+            text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
         }
 
         .welcome-text {
             font-size: 3rem;
             font-weight: bold;
-            margin-top: 50px; /* Memberi jarak agar teks tidak terlalu dekat dengan tepi atas */
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Menambahkan bayangan pada teks agar lebih jelas */
+            margin-top: 50px;
+            text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
         }
 
+        /* Tombol */
         .btn-custom {
-            background-color: #ff6347; /* Warna khas sepatu atau aksesoris */
+            background-color: #f39c12; /* Warna emas untuk tombol */
             border: none;
             color: white;
-            padding: 10px 30px;
-            font-size: 1.1rem;
-            border-radius: 25px;
+            padding: 12px 30px;
+            font-size: 1.2rem;
+            border-radius: 30px;
             margin-top: 20px;
             transition: background-color 0.3s ease;
         }
 
         .btn-custom:hover {
-            background-color: #ff4500;
+            background-color: #e67e22; /* Warna lebih gelap saat hover */
             cursor: pointer;
         }
 
+        /* Footer */
         .footer {
             text-align: center;
             padding: 20px;
@@ -85,7 +87,7 @@
 
             .btn-custom {
                 font-size: 1rem;
-                padding: 8px 20px;
+                padding: 10px 25px;
             }
 
             .welcome-section {
@@ -98,12 +100,12 @@
 
     <!-- Welcome Section -->
     <section class="welcome-section">
-        <!-- Teks Sneaker Store di atas -->
-        <div class="sneaker-text">Sneaker Store</div>
+        <!-- Teks Jacket Store di atas -->
+        <div class="jacket-text">Jacket Store</div>
         <div class="container">
-            <h1 class="welcome-text">Welcome to the World of Stylish Shoes!</h1>
-            <p class="lead">"Jelajahi koleksi eksklusif kami dari tren dan gaya terbaru yang akan membawa permainan mode Anda ke level berikutnya."</p>
-            <a href="indexx.php" class="btn btn-custom">Start Exploring</a>
+            <h1 class="welcome-text">Welcome to the Ultimate Jacket Collection!</h1>
+            <p class="lead">"Explore our exclusive collection of jackets that bring both style and comfort for every season."</p>
+            <a href="indexx.php" class="btn btn-custom">Start Shopping</a>
         </div>
     </section>
 
