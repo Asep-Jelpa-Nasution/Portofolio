@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +9,8 @@
     <style>
         /* Styling Umum */
         body {
-            background-color: #212529; /* Warna latar belakang gelap */
+            background-color: #007bff;
+            /* Warna latar belakang gelap */
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             color: #f8f9fa;
@@ -16,7 +18,8 @@
 
         /* Bagian Welcome Section */
         .welcome-section {
-            background-image: url('https://i.pinimg.com/originals/ba/d2/25/bad22598bc9f801a9415c47ab2a71de4.jpg'); /* Ganti dengan gambar jaket yang relevan */
+            background-image: linear-gradient(to bottom, #ffffff, #007bff);
+            /* Gradasi dari putih ke biru */
             background-size: cover;
             background-position: center;
             background-attachment: fixed;
@@ -29,6 +32,7 @@
             justify-content: center;
             position: relative;
         }
+
 
         /* Teks untuk "Jacket Store" di atas */
         .jacket-text {
@@ -50,7 +54,8 @@
 
         /* Tombol */
         .btn-custom {
-            background-color: #f39c12; /* Warna emas untuk tombol */
+            background-color: #8B4513;
+            /* Warna emas untuk tombol */
             border: none;
             color: white;
             padding: 12px 30px;
@@ -61,7 +66,8 @@
         }
 
         .btn-custom:hover {
-            background-color: #e67e22; /* Warna lebih gelap saat hover */
+            background-color: #6A2E1F;
+            /* Warna lebih gelap saat hover */
             cursor: pointer;
         }
 
@@ -69,7 +75,7 @@
         .footer {
             text-align: center;
             padding: 20px;
-            background-color: #007bff;
+            background-color: #212529;
             color: white;
             width: 100%;
         }
@@ -96,6 +102,7 @@
         }
     </style>
 </head>
+
 <body>
 
     <!-- Welcome Section -->
@@ -118,4 +125,5 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
 </body>
+
 </html>

@@ -24,13 +24,13 @@
 
     <!-- Konten -->
     <div class="container mt-3">
-    <?php include "konten.php"?>
+        <?php include "konten.php" ?>
     </div>
     <!-- ./konten -->
 
     <footer>
         <div class="text-bg-dark p-3 text-center mt-5">
-        <p>&copy; Created By <span class="fw-bold">Asep Jelpa Nasution</span>.</p><?date("Y")?>
+            <p>&copy; Created By <span class="fw-bold">Asep Jelpa Nasution</span>.</p><? date("Y") ?>
         </div>
     </footer>
 
@@ -40,8 +40,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 
     <script>
-    new DataTable('#example');
+        new DataTable('#example');
     </script>
 
 </body>
+
 </html>
